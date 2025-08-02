@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #f5f6fa; margin: 0; }
+.container { max-width: 600px; margin: 40px auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+h1 { text-align: center; color: #4285f4; }
+form { display: flex; gap: 12px; justify-content: center; margin-bottom: 24px; }
+button { background: #4285f4; color: #fff; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #3367d6; }
+ul#fileList { list-style: none; padding: 0; }
+ul#fileList li { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #eee; }
+ul#fileList li:last-child { border-bottom: none; }
+.delete-btn { background: #ea4335; color: #fff; border: none; padding: 4px 12px; border-radius: 4px; cursor: pointer; }
+.delete-btn:hover { background: #c5221f; }
